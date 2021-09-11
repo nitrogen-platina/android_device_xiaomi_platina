@@ -56,6 +56,9 @@ BOARD_HAVE_QCOM_FM := false
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay 
 
+# PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 27
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
